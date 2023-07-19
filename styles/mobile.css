@@ -1,8 +1,6 @@
 @media screen and (max-width: 426px){
   
-    nav{
-        
-    }
+
     .navbar, .nav-content, .banner, .online-games-img,
     .play-instantly, footer{
         flex-direction: column;
@@ -52,7 +50,7 @@
         margin: 0px 20px;
 
     }
-    ..online-games-img img{
+    .online-games-img img{
         height: 100%;
         width: auto;
     }
@@ -95,21 +93,16 @@
 
 /* -----our-games------- */
 .our-games{
-    margin:0px 30px;
+     margin:0px 10px;
     margin-bottom: 60px;
-    font-size: 10px;
-    align-items: center;
+    font-size: 12px;
+
     grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    gap: 5px;
     
 }
 
-/* .colum-two{
-    flex-wrap: wrap;
-}
-.colum-one{
-    flex-wrap: wrap;
-} */
-/* -------------- */
 
 footer{
     padding: 30px 30px;
@@ -139,13 +132,3 @@ footer{
 
 
 } 
-
-
-
-
-
-
-
-
-
-}
