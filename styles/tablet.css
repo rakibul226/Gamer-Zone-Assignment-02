@@ -1,9 +1,7 @@
 @media screen and (min-width: 427px) and (max-width: 768px){
 
  
-    .navbar{
-        /* flex-direction: column; */
-    }
+    
     .navbar{
         margin-left: 70px;
         padding: 20px 40px;
