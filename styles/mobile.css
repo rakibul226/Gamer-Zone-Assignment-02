@@ -95,18 +95,20 @@
 
 /* -----our-games------- */
 .our-games{
-    margin:0px 20px;
+    margin:0px 30px;
+    margin-bottom: 60px;
     font-size: 10px;
     align-items: center;
+    grid-template-columns: repeat(3, 1fr);
     
 }
 
-.colum-two{
+/* .colum-two{
     flex-wrap: wrap;
 }
 .colum-one{
     flex-wrap: wrap;
-}
+} */
 /* -------------- */
 
 footer{
