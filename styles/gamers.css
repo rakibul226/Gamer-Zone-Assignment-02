@@ -81,9 +81,7 @@ nav img{
     margin-top: 2px;
     margin-bottom: 30px;
 }
-/* .banner-content img{
-    margin-top: 2px;
-} */
+
 .banner-img img{
     width: 100%;
 }
@@ -132,12 +130,60 @@ margin-bottom: 10px;
     text-align: left;
 }
 .online-games-img img{
-    width: 100%;
+    
     height: 90%;
 }
 .online-games-img .card-img{
     height: 100%;
+    width: 240px;
 }
+
+
+/* -------Hover effect online games pictures------- */
+
+.card-img {
+    position: relative;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .hover {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .card-img:hover .image {
+    opacity: 0.3;
+  }
+  
+  .card-img:hover .hover {
+    opacity: 1;
+  }
+  
+  .hover-item {
+    font-size: 30px;
+    padding: 16px 32px;
+  }
+  .hover-item p{
+    padding-top: 5px;
+	font-size:10px;
+}
+/* --------------------hover effect-------------------------- */
+
+
 
 
 /* -----------play instant----------------- */
@@ -167,7 +213,7 @@ margin-bottom: 10px;
     margin-left: 80px;
 }
 .main-img{
-    width: 100%;
+    width: 96%;
 }
 .cat{
     width: 40%;
