@@ -130,12 +130,12 @@ margin-bottom: 10px;
     text-align: left;
 }
 .online-games-img img{
-    
+    width: 100%;
     height: 90%;
 }
 .online-games-img .card-img{
     height: 100%;
-    width: 240px;
+    /* width: 240px; */
 }
 
 
